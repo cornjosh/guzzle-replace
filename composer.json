@@ -1,0 +1,22 @@
+{
+    "name": "cornjosh\/guzzle-replace",
+    "description": "Replace other package from Guzzle 6 to Guzzle 7",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cornjosh",
+            "email": "zylntxx@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cornjosh\\GuzzleReplace\\": "src"
+        }
+    },
+    "replace": {
+        "guzzlehttp/guzzle": "^6.0.0"
+    }
+}
